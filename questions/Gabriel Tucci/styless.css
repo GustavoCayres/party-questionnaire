@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: yellowtail, sherikhand;
+}
+
+header {
+    background-color: white;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    ~margin: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} 
+body {color: #483D8B;
+	background-color: black;
+}
+p {
+background-color:#7D5B8C;
+width:50px;	
+}								

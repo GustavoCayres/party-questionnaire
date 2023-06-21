@@ -1,0 +1,23 @@
+body {
+	background-color:beige;
+	color:brown;
+	font-family:comic sans ms;
+	font-weight:bolder;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+certa 1{background-color:green;
+}
+p {
+	background-color:gray;
+	color:#B6EFFA;
+	margin-top:20px;
+	border: 2px solid black;
+	padding: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+h3{color:black;
+text-align:center;
+margin-top:50px;
+}
