@@ -1,0 +1,34 @@
+body {
+	background-color: purple;
+	color: #128;
+	margin: 80px;
+	border: 2px solid white;
+	font-family: 'jester', Calibri;
+	font-weight: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	background-color: turquoise;
+	color: black;
+	padding: 5px white;
+	box-shadow: 10px 10px 15px turquoise;
+}
+
+.alternativa-2 {
+	background-color: pink;
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+}
+
+img {
+	box-shadow: 2px 2px 2px black;
+	margin: 10px;
+	width: 70%;
+
+}

@@ -1,13 +1,20 @@
 RESULTS_PAGE_PATH = "/finish-questionnaire.html";
 QUESTION_PATHS = [
     "/questions/Alessandro Matielo/questão1(1).html",
+    "/questions/Carlos André/pergunta1.html",
+    "/questions/Carlos André 3/pergunta3.html",
+    "/questions/Carlos André 4/pergunta4.html",
+    "/questions/Carlos André 5/pergunta5.html",
     "/questions/Davy 3A, eletiva/site.html",
+    "/questions/Gabriel Silva Dos Santos (3A)/site do cafe.html",
+    "/questions/Lorrayne 1b/site.html",
     "/questions/Gabriel Tucci/tucci.html",
     "/questions/Lukas Barros/pergunta1.html",
     "/questions/Nycolas Marques/pergunta1.html",
     "/questions/Roger Luiz/pergunta1.html",
     "/questions/Sarah Iraci/pergunta.1.html",
-    "/questions/Thiago A/neckklace_lindo.html"
+    "/questions/Thiago A/neckklace_lindo.html",
+    "/questions/Vitória 1C/pergunta1.html"
 ].map(encodeURI);
 API_KEY = "AIzaSyDOtlakOZULcEp_CbdMTioc0HNDKh0KUcM";
 SPREADSHEET_ID = "14YIQdUYkLFqm6xNyYBVXCAMSsyUq5BHPV_ZF5iDRq-U";

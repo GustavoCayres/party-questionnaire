@@ -1,4 +1,3 @@
-alert("bv visitante");
 console.log("ola")
 
 function alertaOi() {

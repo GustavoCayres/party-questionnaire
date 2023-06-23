@@ -1,0 +1,221 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+h2 {
+    font-family: Apple Chancery, cursive;
+    color: black;
+    text-shadow: 0.3px 0.3px 0.6px black;
+    text-decoration: underline;
+}
+
+.div_pai {
+    display: inline-block;
+    margin-top: 50px;
+    width: 850px;
+    border: 10px solid blue;
+}
+
+.div_perguntas {
+    height: 50px;
+    width: 370px;
+    background-color: azure;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    float: left;
+    transition: .3s ease-out;
+}
+
+.div_perguntas2 {
+    height: 105px;
+    width: 370px;
+    background-color: azure;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    float: left;
+    transition: .3s ease-out;
+}
+
+.div_perguntas:hover{
+    background-color: rgb(160, 193, 193);
+    transition: .3s ease-out;
+}
+
+.div_perguntas2:hover{
+    background-color: rgb(160, 193, 193);
+    transition: .3s ease-out;
+}
+
+p {
+    color: black;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: Apple Chancery, cursive;
+    margin: 0;
+    padding-top: 7px;
+    text-shadow: 0.2px 0.2px 0.5px blue;
+}
+
+.imagem_baixo {
+    mix-blend-mode: multiply;
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.imagem_baixo2 {
+    mix-blend-mode: multiply;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.imagem_topo {
+    margin-right: 230px;
+    margin-left: 230px;
+    height: 300px;
+    width: 300px;
+}
+
+/*CSS da tela de acerto*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+footer {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+}
+
+#div_container {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 155px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    border: 10px solid blue;
+    border-style: groove;
+}
+
+#div_container2 {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 225px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    border: 10px solid blue;
+    border-style: groove;
+}
+
+.button_certo {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Apple Chancery, cursive;
+    transition: .3s ease-out;
+}
+
+.button_certo:hover {
+    background-color: whitesmoke;
+    color: rgb(0, 253, 0);
+    text-shadow: 0.2px 0.2px 0.5px rgb(0, 252, 0);
+    transition: .3s ease-out;
+}
+
+.h1_correto {
+    text-align: center;
+    font-size: 70px;
+    font-family: Apple Chancery, cursive;
+    color: rgb(153, 255, 0);
+    text-shadow: 0.5px 0.5px 1px green;
+}
+
+/*CSS da tela de errado*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+footer {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+}
+
+#div_container {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 155px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    border: 10px solid blue;
+    border-style: groove;
+}
+
+.button_errado {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Apple Chancery, cursive;
+    transition: .3s ease-out;
+}
+
+.button_errado:hover {
+    background-color: whitesmoke;
+    color: red;
+    text-shadow: 0.2px 0.2px 0.5px red;
+    transition: .3s ease-out;
+}
+
+.h1_errado {
+    text-align: center;
+    font-size: 70px;
+    font-family: Apple Chancery, cursive;
+    color: red;
+    text-shadow: 0.5px 0.5px 1px rgb(244, 35, 35);
+}
+
+a {
+    margin: 0 auto;
+}
